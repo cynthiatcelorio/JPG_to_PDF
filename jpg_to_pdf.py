@@ -46,7 +46,7 @@ def create_pdf(name):
 # inputs
 
 folder = input("Enter the path to the folder of images you want to convert to pdf: ")                 # Folder containing all the images
-name = input("Enter the name of the document to create (_name.pdf): ")                                # Name of the PDF file to generate
+name = input("Enter the name of the document to create (name.pdf): ")                                # Name of the PDF file to generate
 
 
 add_files(folder)
