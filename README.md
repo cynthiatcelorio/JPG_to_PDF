@@ -10,7 +10,12 @@ To explain this, I will use as an example a manhwa chapter that I have in images
 
 ### 1. Clone the repository on your computer
 
-### 2. Locate the folder in which the images to be converted to pdf are located and copy the path (It is important that this folder only contains images) 
+### 2. Install required modules
+
+```
+pip install fpdf 
+```
+### 3. Locate the folder in which the images to be converted to pdf are located and copy the path (It is important that this folder only contains images) 
 
 ![Captura de pantalla (1285)](https://user-images.githubusercontent.com/16228113/183226601-4eb7414d-d377-46d4-b1ab-36371aed3c59.png)
 
@@ -18,11 +23,11 @@ The files will be sorted alphabetically in the pdf.
 If you see, images 2 and 3 have a different format. This program is intended for numbers less than 10 to be written in the following format 01, 02, ... not 1, 2, 3... because function sort does not order it correctly. When running the program the file names will be corrected so that this is not a problem.
 I have coded it for my type of filename, you can edit it as you wish.
 
-### 3. Run the program with your favorite IDE
+### 4. Run the program with your favorite IDE
 
-### 4. Enter the path, previously copied, of the images to be converted
+### 5. Enter the path, previously copied, of the images to be converted
 
-### 5. Enter the name of the pdf
+### 6. Enter the name of the pdf
 
 It is important that the name ends with ".pdf"
 
