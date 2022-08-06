@@ -14,6 +14,7 @@ To explain this, I will use as an example a manhwa chapter that I have in images
 
 ![Captura de pantalla (1285)](https://user-images.githubusercontent.com/16228113/183226601-4eb7414d-d377-46d4-b1ab-36371aed3c59.png)
 
+The files will be sorted alphabetically in the pdf.
 If you see, images 2 and 3 have a different format. This program is intended for numbers less than 10 to be written in the following format 01, 02, ... not 1, 2, 3... because function sort does not order it correctly. When running the program the file names will be corrected so that this is not a problem.
 I have coded it for my type of filename, you can edit it as you wish.
 
