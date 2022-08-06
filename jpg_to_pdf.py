@@ -37,7 +37,7 @@ def create_pdf(name):
         pdf.add_page()
         pdf.image(image, 0, 0, 210, 297)                           # Dimensions of an A4 size sheet.
 
-    pdf.output(folder + name, "F")                                 # Save the PDF.
+    pdf.output(name, "F")                                 # Save the PDF.
 
     print("PDF generated successfully!")
 
